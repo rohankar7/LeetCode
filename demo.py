@@ -1,2 +1,3 @@
-d = {"1":"Haha", "2":"Hey"}
-print(list(d.values())[::-1])
+d = [1,2,3]
+for i in range(len(d) - 1, -1, -1):
+    print(d[i])
